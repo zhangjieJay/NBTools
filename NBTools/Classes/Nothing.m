@@ -12,6 +12,9 @@
 -(void)letUsTest{
     
     NSLog(@"this is a test!");
-    
+    NSLog(@"this is a test!");
+    NSLog(@"this is a test!");
+    NSLog(@"this is a test!");
+
 }
 @end
