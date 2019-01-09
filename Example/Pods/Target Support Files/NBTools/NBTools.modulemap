@@ -1,0 +1,6 @@
+framework module NBTools {
+  umbrella header "NBTools-umbrella.h"
+
+  export *
+  module * { export * }
+}

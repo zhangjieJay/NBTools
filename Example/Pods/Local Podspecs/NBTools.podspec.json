@@ -1,0 +1,22 @@
+{
+  "name": "NBTools",
+  "version": "0.1.0",
+  "summary": "A short description of NBTools.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/363155926@qq.com/NBTools",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "363155926@qq.com": "363155926@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/363155926@qq.com/NBTools.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NBTools/Classes/**/*"
+}
