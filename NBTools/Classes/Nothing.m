@@ -9,5 +9,9 @@
 #import "Nothing.h"
 
 @implementation Nothing
--(void)letUsTest;
+-(void)letUsTest{
+    
+    NSLog(@"this is a test!");
+    
+}
 @end

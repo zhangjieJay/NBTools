@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NBTools'
-  s.version          = '0.1.0'
+  s.version          = '0.2.0'
   s.summary          = 'common tools'
 
 # This description is used to generate tags and improve search results.
@@ -19,7 +19,7 @@ Pod::Spec.new do |s|
 
   s.description      = 'for usual use that include many categories'
 
-  s.homepage         = 'https://github.com/363155926@qq.com/NBTools'
+  s.homepage         = 'https://github.com/zhangjieJay/NBTools'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { '363155926@qq.com' => '363155926@qq.com' }
@@ -37,4 +37,5 @@ Pod::Spec.new do |s|
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+  
 end
