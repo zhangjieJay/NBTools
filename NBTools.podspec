@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NBTools'
-  s.version          = '0.3.1'
+  s.version          = '0.3.3'
   s.summary          = 'common tools'
 
 # This description is used to generate tags and improve search results.
