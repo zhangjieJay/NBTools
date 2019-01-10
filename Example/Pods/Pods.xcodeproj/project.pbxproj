@@ -36,8 +36,14 @@
 		CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */ = {isa = PBXBuildFile; fileRef = 432938111B6FF0189EFFEDF2F845B308 /* UIImage+Compare.h */; settings = {ATTRIBUTES = (Private, ); }; };
 		DAD9A0E0F40D3984B78A22F8D3CDAB45 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C1A94602875A48A997AD3F08A33E6EAA /* Foundation.framework */; };
 		DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */ = {isa = PBXBuildFile; fileRef = 58A2557E7CE20AACCD1B28B1CD1F920D /* FBSnapshotTestCasePlatform.m */; };
-		E62B66F021E5871D003BEB6F /* Nothing.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B66EE21E5871D003BEB6F /* Nothing.h */; };
-		E62B66F121E5871D003BEB6F /* Nothing.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B66EF21E5871D003BEB6F /* Nothing.m */; };
+		E62B670221E5EFCA003BEB6F /* UIView+Craft.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B670021E5EFCA003BEB6F /* UIView+Craft.h */; };
+		E62B670321E5EFCA003BEB6F /* UIView+Craft.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B670021E5EFCA003BEB6F /* UIView+Craft.h */; };
+		E62B670421E5EFCA003BEB6F /* UIView+Craft.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B670021E5EFCA003BEB6F /* UIView+Craft.h */; };
+		E62B670521E5EFCA003BEB6F /* UIView+Craft.h in Headers */ = {isa = PBXBuildFile; fileRef = E62B670021E5EFCA003BEB6F /* UIView+Craft.h */; };
+		E62B670621E5EFCA003BEB6F /* UIView+Craft.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B670121E5EFCA003BEB6F /* UIView+Craft.m */; };
+		E62B670721E5EFCA003BEB6F /* UIView+Craft.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B670121E5EFCA003BEB6F /* UIView+Craft.m */; };
+		E62B670821E5EFCA003BEB6F /* UIView+Craft.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B670121E5EFCA003BEB6F /* UIView+Craft.m */; };
+		E62B670921E5EFCA003BEB6F /* UIView+Craft.m in Sources */ = {isa = PBXBuildFile; fileRef = E62B670121E5EFCA003BEB6F /* UIView+Craft.m */; };
 		F271D82208ED9195E3CFD4B854317BA4 /* Pods-NBTools_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 37193D6356369EC3CB8BD0163801F1A5 /* Pods-NBTools_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
@@ -120,8 +126,8 @@
 		E197A6BDEED22DF8443B2831081B197C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E37899BD4B349060AA147E2A3721D3A2 /* FBSnapshotTestCase.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = FBSnapshotTestCase.h; path = FBSnapshotTestCase/FBSnapshotTestCase.h; sourceTree = "<group>"; };
 		E62B66E721E58690003BEB6F /* .gitkeep */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
-		E62B66EE21E5871D003BEB6F /* Nothing.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Nothing.h; sourceTree = "<group>"; };
-		E62B66EF21E5871D003BEB6F /* Nothing.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Nothing.m; sourceTree = "<group>"; };
+		E62B670021E5EFCA003BEB6F /* UIView+Craft.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+Craft.h"; sourceTree = "<group>"; };
+		E62B670121E5EFCA003BEB6F /* UIView+Craft.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIView+Craft.m"; sourceTree = "<group>"; };
 		E7843C520ED7D11392D872D57034A1BC /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		EB4E7881EA25EE566318792956BBFE47 /* Pods-NBTools_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-NBTools_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		EF519A026B10AC73ABBE6E658308B29D /* FBSnapshotTestCase-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "FBSnapshotTestCase-prefix.pch"; sourceTree = "<group>"; };
@@ -335,8 +341,8 @@
 		E62B66E821E58690003BEB6F /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				E62B66EE21E5871D003BEB6F /* Nothing.h */,
-				E62B66EF21E5871D003BEB6F /* Nothing.m */,
+				E62B670021E5EFCA003BEB6F /* UIView+Craft.h */,
+				E62B670121E5EFCA003BEB6F /* UIView+Craft.m */,
 			);
 			name = Classes;
 			path = NBTools/Classes;
@@ -387,6 +393,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62B670421E5EFCA003BEB6F /* UIView+Craft.h in Headers */,
 				F271D82208ED9195E3CFD4B854317BA4 /* Pods-NBTools_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -395,6 +402,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62B670521E5EFCA003BEB6F /* UIView+Craft.h in Headers */,
 				081DB58CD0643A046E3B54B068517DC6 /* Pods-NBTools_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +411,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E62B670321E5EFCA003BEB6F /* UIView+Craft.h in Headers */,
 				9CE55AC1326D64FDCE9AC7206B9768DC /* NBTools-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,7 +427,7 @@
 				BC952FC04FC963C1294DCD619C9B6B3B /* UIApplication+StrictKeyWindow.h in Headers */,
 				CAFA5E486BCE117A7D8C0FBF9DA6666B /* UIImage+Compare.h in Headers */,
 				051A816D6DD0CAE13496DDCFE0829167 /* UIImage+Diff.h in Headers */,
-				E62B66F021E5871D003BEB6F /* Nothing.h in Headers */,
+				E62B670221E5EFCA003BEB6F /* UIView+Craft.h in Headers */,
 				421CDD701AEE0F2458A84200366CDD0F /* UIImage+Snapshot.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -504,7 +513,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -532,6 +541,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A6FDB510E9BBEF6A5E77014A20A8A554 /* Pods-NBTools_Tests-dummy.m in Sources */,
+				E62B670921E5EFCA003BEB6F /* UIView+Craft.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -540,6 +550,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				561627DEF20CDE1A56E9FAC29793A4B3 /* Pods-NBTools_Example-dummy.m in Sources */,
+				E62B670821E5EFCA003BEB6F /* UIView+Craft.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -548,6 +559,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				629DB2CC38E894523E1B822B03164C10 /* NBTools-dummy.m in Sources */,
+				E62B670721E5EFCA003BEB6F /* UIView+Craft.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -558,13 +570,13 @@
 				506D761F91EC3583789A837C559972FE /* FBSnapshotTestCase-dummy.m in Sources */,
 				BE14F2198CDB0DAD98A567981D21C7A1 /* FBSnapshotTestCase.m in Sources */,
 				DB7A106243AC974FC7EBEB00B506C786 /* FBSnapshotTestCasePlatform.m in Sources */,
+				E62B670621E5EFCA003BEB6F /* UIView+Craft.m in Sources */,
 				A4F69F3477A935285620AC3031C5C848 /* FBSnapshotTestController.m in Sources */,
 				1AB7934C16CE49DE196FFC7BE7278287 /* SwiftSupport.swift in Sources */,
 				094973D2D2F1E3B2E772F93C8147C6B9 /* UIApplication+StrictKeyWindow.m in Sources */,
 				69DA8B003216466C60F029CBD79897F1 /* UIImage+Compare.m in Sources */,
 				35DD05FD595A6FE7F5A0692D12E319DC /* UIImage+Diff.m in Sources */,
 				756564ABAF2892FE7140C92A1CDDCF65 /* UIImage+Snapshot.m in Sources */,
-				E62B66F121E5871D003BEB6F /* Nothing.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -720,7 +732,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1C0FE037749D2F71C8717845E610EED6 /* Pods-NBTools_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -935,6 +947,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -943,7 +956,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 76906CD41F1EE3B0337775C95DF3018C /* Pods-NBTools_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
